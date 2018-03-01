@@ -1,0 +1,19 @@
+{
+    "name": "daniti/oauth2-pipedrive",
+    "description": "Pipedrive OAuth 2.0 client provider for PHP League OAuth2 Client",
+    "require": {
+        "league/oauth2-client": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniele Timo",
+            "email": "dani@danieletimo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Daniti\\OAuth2\\Client\\Provider\\": "src/"
+        }
+    }
+}
