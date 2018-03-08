@@ -1,7 +1,7 @@
 # oauth2-pipedrive
 Pipedrive OAuth 2.0 client provider for PHP League OAuth2 Client
 
-composer require daniti/oauth2-pipedrive
+`composer require daniti/oauth2-pipedrive`
 
 include `vendor/autoload.php`
 ```php
