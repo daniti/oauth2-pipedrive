@@ -30,6 +30,11 @@ class PipedriveResourceOwner implements ResourceOwnerInterface
         return $this->response['data']['name'] ?: null;
     }
 
+    public function getCompanyId()
+    {
+        return $this->response['data']['company_id'] ?: null;
+    }
+
     public function toArray()
     {
         return $this->response;
