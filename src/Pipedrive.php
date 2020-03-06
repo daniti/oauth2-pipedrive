@@ -39,8 +39,8 @@ class Pipedrive extends AbstractProvider
     {
         if (isset($data['error'])) {
             throw new PipedriveIdentityProviderException(
-                $data['error_description'] ?: $response->getReasonPhrase(),
-                $data['status_code'] ?: $response->getStatusCode(),
+                $data['message'] ?: $response->getReasonPhrase(),
+                $response->getStatusCode(),
                 $response
             );
         }
